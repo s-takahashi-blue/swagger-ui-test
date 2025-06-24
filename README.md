@@ -4,7 +4,10 @@
 
 ## ✅ 公開URL（GitHub Pages）
 
-> https://ユーザー名.github.io/swagger-ui-test
+https://ユーザー名.github.io/swagger-ui-test
+
+https://s-takahashi-blue.github.io/swagger-ui-test
+
 ※ リポジトリが **Public** の場合のみ有効です。
 
 ---
