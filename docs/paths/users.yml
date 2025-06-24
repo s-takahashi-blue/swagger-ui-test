@@ -7,3 +7,15 @@ get:
         application/json:
           schema:
             $ref: "../components/schemas.yaml#/UserList"
+    '400':
+      description: リクエストエラー
+      content:
+        application/json:
+          schema:
+            $ref: "../components/schemas.yaml#/ErrorResponse"
+    '500':
+      description: サーバーエラー
+      content:
+        application/json:
+          schema:
+            $ref: "../components/schemas.yaml#/ErrorResponse"

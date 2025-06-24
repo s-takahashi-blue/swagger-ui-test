@@ -1,0 +1,168 @@
+User:
+  type: object
+  properties:
+    id:
+      type: integer
+      format: int64
+      description: ユーザーID
+    title:
+      type: string
+      maxLength: 150
+      description: タイトル
+    email:
+      type: string
+      maxLength: 255
+      description: メールアドレス
+    description:
+      type: string
+      maxLength: 65535
+      description: 説明
+    image_thumb1:
+      type: string
+      maxLength: 100
+      description: サムネイル画像ファイル名
+    image_file1:
+      type: string
+      maxLength: 100
+      description: 画像ファイル名
+    latitude:
+      type: string
+      maxLength: 12
+      description: 緯度
+    longitude:
+      type: string
+      maxLength: 12
+      description: 経度
+    password:
+      type: string
+      maxLength: 255
+      description: パスワード
+    tmp_password:
+      type: string
+      maxLength: 255
+      description: 一時パスワード
+    num_login:
+      type: integer
+      format: int64
+      description: ログイン回数
+    num_signin_error:
+      type: integer
+      format: int32
+      description: サインインエラー回数
+    signin_error_time:
+      type: string
+      format: date-time
+      description: サインインエラー時刻
+    last_updated:
+      type: string
+      format: date-time
+      description: 最終更新日時
+    flag_notice_mail:
+      type: integer
+      format: int32
+      description: 通知メールフラグ
+    role:
+      type: string
+      maxLength: 6
+      description: ロール
+    status:
+      type: string
+      maxLength: 9
+      description: ステータス
+    created:
+      type: string
+      format: date-time
+      description: 作成日時
+    modified:
+      type: string
+      format: date-time
+      description: 更新日時
+    confirmation_token:
+      type: string
+      maxLength: 255
+      description: 確認トークン
+    confirmed_at:
+      type: string
+      format: date-time
+      description: 確認日時
+    confirmation_sent_at:
+      type: string
+      format: date-time
+      description: 確認送信日時
+    remember_created_at:
+      type: string
+      format: date-time
+      description: リメンバー作成日時
+    reset_password_token:
+      type: string
+      maxLength: 255
+      description: パスワードリセットトークン
+    reset_password_sent_at:
+      type: string
+      format: date-time
+      description: パスワードリセット送信日時
+    failed_attempts:
+      type: integer
+      format: int32
+      description: 失敗回数
+    locked_at:
+      type: string
+      format: date-time
+      description: ロック日時
+    last_sign_in_at:
+      type: string
+      format: date-time
+      description: 最終サインイン日時
+    last_sign_in_ip:
+      type: string
+      maxLength: 255
+      description: 最終サインインIP
+    current_sign_in_at:
+      type: string
+      format: date-time
+      description: 現在サインイン日時
+    current_sign_in_ip:
+      type: string
+      maxLength: 255
+      description: 現在サインインIP
+    sign_in_count:
+      type: integer
+      format: int32
+      description: サインイン回数
+    first_name:
+      type: string
+      maxLength: 100
+      description: 名
+    company_name:
+      type: string
+      maxLength: 100
+      description: 会社名
+    department:
+      type: string
+      maxLength: 100
+      description: 部署
+    job_title:
+      type: string
+      maxLength: 100
+      description: 役職
+    phone_number:
+      type: string
+      maxLength: 20
+      description: 電話番号
+UserList:
+  type: array
+  items:
+    $ref: '#/User'
+ErrorResponse:
+  type: object
+  properties:
+    message:
+      type: string
+      description: エラーメッセージ
+    code:
+      type: string
+      description: エラーコード
+    details:
+      type: object
+      description: 詳細情報（任意）
+      additionalProperties: true
