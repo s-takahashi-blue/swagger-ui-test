@@ -1,5 +1,5 @@
 get:
-  summary: 物件一覧ｘ取得
+  summary: 物件一覧取得
   tags:
     - Items
   parameters:
@@ -19,6 +19,47 @@ get:
           - industrial
           - retail
         default: office
+  responses:
+    '200':
+      description: 物件一覧取得成功
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../../components/schemas/Items.yaml'
+
+post:
+  summary: 物件一覧検索（キーワード・都道府県ID指定）
+  tags:
+    - Items
+  requestBody:
+    required: true
+    content:
+      application/json:
+        schema:
+          type: object
+          properties:
+            item_type:
+              type: string
+              enum:
+                - office
+                - office_free
+                - office_shared
+                - office_furnished
+                - industrial
+                - retail
+              default: office
+            keyword:
+              type: string
+              description: キーワード
+            prefecture_id:
+              type: integer
+              description: 都道府県ID
+            page:
+              type: integer
+            limit:
+              type: integer
   responses:
     '200':
       description: 物件一覧取得成功
