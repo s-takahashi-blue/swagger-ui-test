@@ -1,0 +1,101 @@
+type: object
+properties:
+  id:
+    type: integer
+  page_key:
+    type: string
+  page_group_id:
+    type: integer
+  parent_id:
+    type: integer
+  title:
+    type: string
+  title_short:
+    type: string
+  page_type:
+    type: string
+  case_flag:
+    type: integer
+  keywords:
+    type: string
+  description:
+    type: string
+  column_value:
+    type: string
+  content:
+    type: string
+  options:
+    type: string
+  image_file:
+    type: string
+  url:
+    type: string
+  flag_new_window:
+    type: string
+  page_view_file:
+    type: string
+  master_key:
+    type: string
+  category:
+    type: string
+  area_key:
+    type: string
+  dept_cd:
+    type: string
+  pubdate:
+    type: string
+    format: date-time
+  expired:
+    type: string
+    format: date-time
+  property_id:
+    type: string
+  form_key:
+    type: string
+  static_content_type:
+    type: string
+  flag_use_form:
+    type: string
+  additional_js:
+    type: string
+  additional_css:
+    type: string
+  list_order:
+    type: integer
+  status:
+    type: string
+  mt_category:
+    type: string
+  mt_blog:
+    type: string
+  mt_version:
+    type: string
+  mt_blog_id:
+    type: integer
+  mt_entry_id:
+    type: integer
+  mt_category_id:
+    type: integer
+  mt_status:
+    type: string
+  flag_display_list:
+    type: string
+  flag_member_only:
+    type: string
+  flag_hide_date:
+    type: integer
+  flag_noindex:
+    type: integer
+  flag_ad:
+    type: integer
+  flag_update:
+    type: string
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time
+  modified_freezed:
+    type: string
+    format: date-time

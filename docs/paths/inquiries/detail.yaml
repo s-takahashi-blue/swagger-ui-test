@@ -1,0 +1,24 @@
+get:
+  summary: 問い合わせ詳細を取得
+  tags:
+    - Inquiries
+  parameters:
+    - name: inquiryId
+      in: path
+      required: true
+      description: 問い合わせID
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: 問い合わせ詳細取得成功
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/Inquiries.yaml'
+    '404':
+      description: データが見つかりません
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/ErrorResponse.yaml'

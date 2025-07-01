@@ -1,0 +1,378 @@
+type: object
+properties:
+  id:
+    type: integer
+  master_id:
+    type: integer
+  property_id:
+    type: string
+  title:
+    type: string
+  area_cd:
+    type: integer
+  prefecture_id:
+    type: integer
+  address_pref:
+    type: string
+  address_city:
+    type: string
+  address:
+    type: string
+  address_detail:
+    type: string
+  address_raw:
+    type: string
+  is_address_hidden:
+    type: integer
+  description:
+    type: string
+  route1:
+    type: integer
+  route2:
+    type: integer
+  route3:
+    type: integer
+  station1:
+    type: integer
+  station2:
+    type: integer
+  station3:
+    type: integer
+  walk_minute1:
+    type: string
+  walk_minute2:
+    type: string
+  walk_minute3:
+    type: string
+  structure:
+    type: string
+  completion_date:
+    type: integer
+  floor_height:
+    type: integer
+  floor_height_to:
+    type: integer
+  total_rent_area_tsubo:
+    type: string
+  total_rent_area_square:
+    type: string
+  property_note:
+    type: string
+  icon:
+    type: string
+  contents:
+    type: string
+  image_file1:
+    type: string
+  image_file1_t:
+    type: string
+  image_file1_da:
+    type: string
+  image_file2:
+    type: string
+  image_file2_t:
+    type: string
+  image_file2_da:
+    type: string
+  image_file3:
+    type: string
+  image_file3_t:
+    type: string
+  image_file3_da:
+    type: string
+  image_file4:
+    type: string
+  image_file4_t:
+    type: string
+  image_file4_da:
+    type: string
+  image_file5:
+    type: string
+  image_file5_t:
+    type: string
+  image_file5_da:
+    type: string
+  image_file6:
+    type: string
+  image_file6_t:
+    type: string
+  image_file6_da:
+    type: string
+  image_file7:
+    type: string
+  image_file7_t:
+    type: string
+  image_file7_da:
+    type: string
+  image_file8:
+    type: string
+  image_file8_t:
+    type: string
+  image_file8_da:
+    type: integer
+  image_file9:
+    type: string
+  image_file9_t:
+    type: string
+  image_file9_da:
+    type: integer
+  image_file10:
+    type: string
+  image_file10_t:
+    type: string
+  image_file10_da:
+    type: integer
+  image_file11:
+    type: string
+  image_file11_t:
+    type: string
+  image_file11_da:
+    type: integer
+  image_file12:
+    type: string
+  image_file12_t:
+    type: string
+  image_file12_da:
+    type: integer
+  image_file13:
+    type: string
+  image_file13_t:
+    type: string
+  image_file13_da:
+    type: integer
+  image_file14:
+    type: string
+  image_file14_t:
+    type: string
+  image_file14_da:
+    type: integer
+  image_file15:
+    type: string
+  image_file15_t:
+    type: string
+  image_file15_da:
+    type: integer
+  image_file16:
+    type: string
+  image_file16_t:
+    type: string
+  image_file16_da:
+    type: integer
+  image_file17:
+    type: string
+  image_file17_t:
+    type: string
+  image_file17_da:
+    type: integer
+  image_file18:
+    type: string
+  image_file18_t:
+    type: string
+  image_file18_da:
+    type: integer
+  image_file19:
+    type: string
+  image_file19_t:
+    type: string
+  image_file19_da:
+    type: integer
+  image_file20:
+    type: string
+  image_file20_t:
+    type: string
+  image_file20_da:
+    type: integer
+  image_file21:
+    type: string
+  image_file21_t:
+    type: string
+  image_file21_da:
+    type: integer
+  image_file22:
+    type: string
+  image_file22_t:
+    type: string
+  image_file22_da:
+    type: integer
+  image_file23:
+    type: string
+  image_file23_t:
+    type: string
+  image_file23_da:
+    type: integer
+  image_file24:
+    type: string
+  image_file24_t:
+    type: string
+  image_file24_da:
+    type: integer
+  image_file25:
+    type: string
+  image_file25_t:
+    type: string
+  image_file25_da:
+    type: integer
+  image_file26:
+    type: string
+  image_file26_t:
+    type: string
+  image_file26_da:
+    type: integer
+  image_file27:
+    type: string
+  image_file27_t:
+    type: string
+  image_file27_da:
+    type: integer
+  image_file28:
+    type: string
+  image_file28_t:
+    type: string
+  image_file28_da:
+    type: integer
+  image_file29:
+    type: string
+  image_file29_t:
+    type: string
+  image_file29_da:
+    type: integer
+  image_file30:
+    type: string
+  image_file30_t:
+    type: string
+  image_file30_da:
+    type: integer
+  caption1:
+    type: string
+  caption2:
+    type: string
+  caption3:
+    type: string
+  caption4:
+    type: string
+  caption5:
+    type: string
+  caption6:
+    type: string
+  caption7:
+    type: string
+  caption8:
+    type: string
+  caption9:
+    type: string
+  caption10:
+    type: string
+  caption11:
+    type: string
+  caption12:
+    type: string
+  caption13:
+    type: string
+  caption14:
+    type: string
+  caption15:
+    type: string
+  caption16:
+    type: string
+  caption17:
+    type: string
+  caption18:
+    type: string
+  caption19:
+    type: string
+  caption20:
+    type: string
+  caption21:
+    type: string
+  caption22:
+    type: string
+  caption23:
+    type: string
+  caption24:
+    type: string
+  caption25:
+    type: string
+  caption26:
+    type: string
+  caption27:
+    type: string
+  caption28:
+    type: string
+  caption29:
+    type: string
+  caption30:
+    type: string
+  image_info:
+    type: string
+  spacely_url1:
+    type: string
+  spacely_url2:
+    type: string
+  spacely_url3:
+    type: string
+  video_url1:
+    type: string
+  video_url2:
+    type: string
+  video_url3:
+    type: string
+  video_caption1:
+    type: string
+  video_caption2:
+    type: string
+  video_caption3:
+    type: string
+  latitude:
+    type: number
+  longitude:
+    type: number
+  deal_type:
+    type: string
+  interior_type:
+    type: string
+  page_title:
+    type: string
+  sales_copy:
+    type: string
+  outline:
+    type: string
+  remarks:
+    type: string
+  capacity:
+    type: string
+  campaign_started_at:
+    type: string
+    format: date-time
+  campaign_finished_at:
+    type: string
+    format: date-time
+  expired_at:
+    type: string
+    format: date-time
+  contact_note:
+    type: string
+  flag_listing:
+    type: string
+  flag_appearance:
+    type: string
+  flag_csv_upload:
+    type: string
+  sum_space_size_tsubo:
+    type: integer
+  sum_space_size_square:
+    type: integer
+  contact_id:
+    type: integer
+  status:
+    type: string
+  last_modified:
+    type: string
+    format: date-time
+  last_modified_user:
+    type: integer
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time

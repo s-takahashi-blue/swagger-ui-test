@@ -1,14 +1,49 @@
-openapi: 3.0.0
+openapi: 3.0.3
 info:
   title: CBRE API
   version: 1.0.0
+
 servers:
   - url: https://api.example.com
+
 paths:
   /users:
-    $ref: "./paths/users.yaml"
+    $ref: './paths/users/list.yaml'
+  /users/{userId}:
+    $ref: './paths/users/detail.yaml'
+  /crm_users:
+    $ref: './paths/crm_users/list.yaml'
+  /crm_users/{crmUserId}:
+    $ref: './paths/crm_users/detail.yaml'
+  /inquiries:
+    $ref: './paths/inquiries/list.yaml'
+  /inquiries/{inquiryId}:
+    $ref: './paths/inquiries/detail.yaml'
+  /items:
+    $ref: './paths/items/list.yaml'
+  /items/{itemId}:
+    $ref: './paths/items/detail.yaml'
+
 components:
+  parameters:
+    Page:
+      $ref: './components/parameters/Page.yaml'
+    Limit:
+      $ref: './components/parameters/Limit.yaml'
   schemas:
-    $ref: "./components/schemas.yaml"
-  responses:
-    $ref: "./components/responses.yaml"
+    CrmUsers:
+      $ref: './components/schemas/CrmUsers.yaml'
+    Inquiries:
+      $ref: './components/schemas/Inquiries.yaml'
+    InquireyForm:
+      $ref: './components/schemas/InquireyForm.yaml'
+    Items:
+      $ref: './components/schemas/Items.yaml'
+    Pages:
+      $ref: './components/schemas/Pages.yaml'
+    Rooms:
+      $ref: './components/schemas/Rooms.yaml'
+    Users:
+      $ref: './components/schemas/Users.yaml'
+    ErrorResponse:
+      $ref: './components/schemas/ErrorResponse.yaml'

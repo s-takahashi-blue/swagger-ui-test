@@ -16,10 +16,17 @@ https://s-takahashi-blue.github.io/swagger-ui-test
 
 ```
 swagger-ui-test/
+├── ddl/                          # DDL
+│   └── all_tables_ddl.sql
 ├── docs/
-│   ├── index.html       ← Swagger UI のエントリポイント
-│   ├── openapi.yaml     ← OpenAPI 仕様ファイル
-│   └── （Swagger UI の dist ファイル一式）
+│   ├── index.html               # Swagger UI のエントリポイント
+│   ├── openapi.yaml             # OpenAPI 仕様ファイル（ルート）
+│   ├── components/              # OpenAPIの部品（schemas, parameters など）
+│   │   ├── schemas/            # スキーマ定義
+│   │   └── parameters/         # パラメータ定義
+│   └── paths/                   # 各APIエンドポイント定義
+├── scripts/                      # 変換スクリプト
+│   └── ddl_to_openapi.py
 └── README.md
 ```
 

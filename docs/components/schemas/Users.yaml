@@ -1,0 +1,87 @@
+type: object
+properties:
+  id:
+    type: integer
+  title:
+    type: string
+  email:
+    type: string
+  description:
+    type: string
+  image_thumb1:
+    type: string
+  image_file1:
+    type: string
+  latitude:
+    type: string
+  longitude:
+    type: string
+  password:
+    type: string
+  tmp_password:
+    type: string
+  num_login:
+    type: integer
+  num_signin_error:
+    type: integer
+  signin_error_time:
+    type: string
+    format: date-time
+  last_updated:
+    type: string
+    format: date-time
+  flag_notice_mail:
+    type: integer
+  role:
+    type: string
+  status:
+    type: string
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time
+  confirmation_token:
+    type: string
+  confirmed_at:
+    type: string
+    format: date-time
+  confirmation_sent_at:
+    type: string
+    format: date-time
+  remember_created_at:
+    type: string
+    format: date-time
+  reset_password_token:
+    type: string
+  reset_password_sent_at:
+    type: string
+    format: date-time
+  failed_attempts:
+    type: integer
+  locked_at:
+    type: string
+    format: date-time
+  last_sign_in_at:
+    type: string
+    format: date-time
+  last_sign_in_ip:
+    type: string
+  current_sign_in_at:
+    type: string
+    format: date-time
+  current_sign_in_ip:
+    type: string
+  sign_in_count:
+    type: integer
+  first_name:
+    type: string
+  company_name:
+    type: string
+  department:
+    type: string
+  job_title:
+    type: string
+  phone_number:
+    type: string

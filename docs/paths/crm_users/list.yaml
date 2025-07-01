@@ -1,0 +1,16 @@
+get:
+  summary: CRMユーザー一覧を取得
+  tags:
+    - CrmUsers
+  parameters:
+    - $ref: '../../components/parameters/Page.yaml'
+    - $ref: '../../components/parameters/Limit.yaml'
+  responses:
+    '200':
+      description: 一覧取得成功
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../../components/schemas/CrmUsers.yaml'

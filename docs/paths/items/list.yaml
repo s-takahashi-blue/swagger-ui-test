@@ -1,0 +1,30 @@
+get:
+  summary: 物件一覧ｘ取得
+  tags:
+    - Items
+  parameters:
+    - $ref: '../../components/parameters/Page.yaml'
+    - $ref: '../../components/parameters/Limit.yaml'
+    - name: item_type
+      in: query
+      description: 物件種別
+      required: false
+      schema:
+        type: string
+        enum:
+          - office
+          - office_free
+          - office_shared
+          - office_furnished
+          - industrial
+          - retail
+        default: office
+  responses:
+    '200':
+      description: 物件一覧取得成功
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../../components/schemas/Items.yaml'

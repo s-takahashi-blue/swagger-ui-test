@@ -1,0 +1,56 @@
+type: object
+properties:
+  id:
+    type: integer
+  title:
+    type: string
+  form_key:
+    type: string
+  column:
+    type: string
+  column2:
+    type: string
+  title_alt:
+    type: string
+  title_sub:
+    type: string
+  title_sub2:
+    type: string
+  lead_text:
+    type: string
+  remarks:
+    type: string
+  flag_property_table2:
+    type: string
+  mail_lead:
+    type: string
+  mail_flag_content:
+    type: string
+  mail_body:
+    type: string
+  mail_signature:
+    type: string
+  form_tag:
+    type: string
+  confirm_tag:
+    type: string
+  conversion_tag:
+    type: string
+  conversion_html:
+    type: string
+  alt_emails:
+    type: string
+  default_crm_status:
+    type: string
+  registration_flag:
+    type: integer
+  list_order:
+    type: integer
+  status:
+    type: string
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time

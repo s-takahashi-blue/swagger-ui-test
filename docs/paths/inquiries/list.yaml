@@ -1,0 +1,16 @@
+get:
+  summary: 問い合わせ一覧を取得
+  tags:
+    - Inquiries
+  parameters:
+    - $ref: '../../components/parameters/Page.yaml'
+    - $ref: '../../components/parameters/Limit.yaml'
+  responses:
+    '200':
+      description: 問い合わせ一覧取得成功
+      content:
+        application/json:
+          schema:
+            type: array
+            items:
+              $ref: '../../components/schemas/Inquiries.yaml'

@@ -1,0 +1,353 @@
+type: object
+properties:
+  id:
+    type: integer
+  master_id:
+    type: integer
+  item_id:
+    type: integer
+  space_id:
+    type: integer
+  space_definition:
+    type: string
+  space_class:
+    type: string
+  floor:
+    type: string
+  space_size_tsubo:
+    type: string
+  space_size_square:
+    type: string
+  space_size_note:
+    type: string
+  has_ambiguous_size:
+    type: integer
+  rent_pattern:
+    type: string
+  rent_tax:
+    type: integer
+  rent:
+    type: integer
+  rent_note:
+    type: string
+  rent_total:
+    type: integer
+  cam_pattern:
+    type: string
+  cam_tax:
+    type: integer
+  cam:
+    type: integer
+  cam_note:
+    type: string
+  cam_total:
+    type: integer
+  fee:
+    type: integer
+  fee_total:
+    type: integer
+  contract_type:
+    type: string
+  contract_term:
+    type: integer
+  available_date:
+    type: string
+  available_note:
+    type: string
+  brokerage_type:
+    type: string
+  space_note:
+    type: string
+  icon:
+    type: string
+  contents:
+    type: string
+  image_file1:
+    type: string
+  image_file1_t:
+    type: string
+  image_file1_da:
+    type: string
+  image_file2:
+    type: string
+  image_file2_t:
+    type: string
+  image_file2_da:
+    type: string
+  image_file3:
+    type: string
+  image_file3_t:
+    type: string
+  image_file3_da:
+    type: string
+  image_file4:
+    type: string
+  image_file4_t:
+    type: string
+  image_file4_da:
+    type: string
+  image_file5:
+    type: string
+  image_file5_t:
+    type: string
+  image_file5_da:
+    type: string
+  image_file6:
+    type: string
+  image_file6_t:
+    type: string
+  image_file6_da:
+    type: string
+  image_file7:
+    type: string
+  image_file7_t:
+    type: string
+  image_file7_da:
+    type: string
+  image_file8:
+    type: string
+  image_file8_t:
+    type: string
+  image_file8_da:
+    type: integer
+  image_file9:
+    type: string
+  image_file9_t:
+    type: string
+  image_file9_da:
+    type: integer
+  image_file10:
+    type: string
+  image_file10_t:
+    type: string
+  image_file10_da:
+    type: integer
+  image_file11:
+    type: string
+  image_file11_t:
+    type: string
+  image_file11_da:
+    type: integer
+  image_file12:
+    type: string
+  image_file12_t:
+    type: string
+  image_file12_da:
+    type: integer
+  image_file13:
+    type: string
+  image_file13_t:
+    type: string
+  image_file13_da:
+    type: integer
+  image_file14:
+    type: string
+  image_file14_t:
+    type: string
+  image_file14_da:
+    type: integer
+  image_file15:
+    type: string
+  image_file15_t:
+    type: string
+  image_file15_da:
+    type: integer
+  image_file16:
+    type: string
+  image_file16_t:
+    type: string
+  image_file16_da:
+    type: integer
+  image_file17:
+    type: string
+  image_file17_t:
+    type: string
+  image_file17_da:
+    type: integer
+  image_file18:
+    type: string
+  image_file18_t:
+    type: string
+  image_file18_da:
+    type: integer
+  image_file19:
+    type: string
+  image_file19_t:
+    type: string
+  image_file19_da:
+    type: integer
+  image_file20:
+    type: string
+  image_file20_t:
+    type: string
+  image_file20_da:
+    type: integer
+  image_file21:
+    type: string
+  image_file21_t:
+    type: string
+  image_file21_da:
+    type: integer
+  image_file22:
+    type: string
+  image_file22_t:
+    type: string
+  image_file22_da:
+    type: integer
+  image_file23:
+    type: string
+  image_file23_t:
+    type: string
+  image_file23_da:
+    type: integer
+  image_file24:
+    type: string
+  image_file24_t:
+    type: string
+  image_file24_da:
+    type: integer
+  image_file25:
+    type: string
+  image_file25_t:
+    type: string
+  image_file25_da:
+    type: integer
+  image_file26:
+    type: string
+  image_file26_t:
+    type: string
+  image_file26_da:
+    type: integer
+  image_file27:
+    type: string
+  image_file27_t:
+    type: string
+  image_file27_da:
+    type: integer
+  image_file28:
+    type: string
+  image_file28_t:
+    type: string
+  image_file28_da:
+    type: integer
+  image_file29:
+    type: string
+  image_file29_t:
+    type: string
+  image_file29_da:
+    type: integer
+  image_file30:
+    type: string
+  image_file30_t:
+    type: string
+  image_file30_da:
+    type: integer
+  caption1:
+    type: string
+  caption2:
+    type: string
+  caption3:
+    type: string
+  caption4:
+    type: string
+  caption5:
+    type: string
+  caption6:
+    type: string
+  caption7:
+    type: string
+  caption8:
+    type: string
+  caption9:
+    type: string
+  caption10:
+    type: string
+  caption11:
+    type: string
+  caption12:
+    type: string
+  caption13:
+    type: string
+  caption14:
+    type: string
+  caption15:
+    type: string
+  caption16:
+    type: string
+  caption17:
+    type: string
+  caption18:
+    type: string
+  caption19:
+    type: string
+  caption20:
+    type: string
+  caption21:
+    type: string
+  caption22:
+    type: string
+  caption23:
+    type: string
+  caption24:
+    type: string
+  caption25:
+    type: string
+  caption26:
+    type: string
+  caption27:
+    type: string
+  caption28:
+    type: string
+  caption29:
+    type: string
+  caption30:
+    type: string
+  image_info:
+    type: string
+  dept_cd:
+    type: string
+  contact_id:
+    type: integer
+  is_dummy:
+    type: integer
+  flag_private:
+    type: string
+  flag_listing:
+    type: string
+  flag_agent:
+    type: string
+  flag_recommend:
+    type: string
+  flag_csv_upload:
+    type: string
+  flag_auto_delete:
+    type: string
+  flag_update:
+    type: string
+  flag_elasticsearch:
+    type: integer
+  status:
+    type: string
+  expired_at:
+    type: string
+    format: date-time
+  last_updated:
+    type: string
+    format: date-time
+  last_modified:
+    type: string
+    format: date-time
+  last_modified_user:
+    type: integer
+  is_online_brokerage:
+    type: integer
+  company_id:
+    type: integer
+  is_negotiable:
+    type: integer
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time

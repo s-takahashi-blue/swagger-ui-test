@@ -1,0 +1,217 @@
+type: object
+properties:
+  id:
+    type: integer
+  master_id:
+    type: integer
+  branch_id:
+    type: integer
+  inquiry_form_id:
+    type: integer
+  page_id:
+    type: integer
+  client_id:
+    type: integer
+  client_type:
+    type: string
+  company:
+    type: string
+  company_kana:
+    type: string
+  department:
+    type: string
+  title:
+    type: string
+  1st_name:
+    type: string
+  2nd_name:
+    type: string
+  1st_name_kana:
+    type: string
+  2nd_name_kana:
+    type: string
+  industry:
+    type: string
+  industry_text:
+    type: string
+  postal_code:
+    type: string
+  prefecture_id:
+    type: integer
+  address:
+    type: string
+  address_detail:
+    type: string
+  building:
+    type: string
+  email:
+    type: string
+  tel:
+    type: string
+  fax:
+    type: string
+  flag_newsletter:
+    type: string
+  flag_alert:
+    type: string
+  inq_type:
+    type: string
+  inq_services:
+    type: string
+  inq_services_text:
+    type: string
+  property_id:
+    type: string
+  space_id:
+    type: string
+  properties:
+    type: string
+  property_url:
+    type: string
+  property_name:
+    type: string
+  property_postal_code:
+    type: string
+  property_prefecture_id:
+    type: integer
+  property_address:
+    type: string
+  property_area:
+    type: string
+  property_area_cd:
+    type: string
+  property_size:
+    type: string
+  feature_id:
+    type: integer
+  flag_overseas:
+    type: string
+  search_prefecture_id:
+    type: integer
+  search_area:
+    type: string
+  search_station:
+    type: string
+  search_station_minute:
+    type: string
+  search_ic:
+    type: string
+  search_ic_distance:
+    type: string
+  search_property_type:
+    type: string
+  search_property_type_text:
+    type: string
+  search_use:
+    type: string
+  search_use_text:
+    type: string
+  acquisition_motive:
+    type: string
+  acquisition_motive_text:
+    type: string
+  disposition_motive:
+    type: string
+  disposition_motive_text:
+    type: string
+  investments_period:
+    type: string
+  search_size_fr:
+    type: integer
+  search_size_to:
+    type: integer
+  search_size_unit:
+    type: string
+  search_size_sq_fr:
+    type: integer
+  search_size_sq_to:
+    type: integer
+  search_price_unit_fr:
+    type: integer
+  search_price_unit_to:
+    type: integer
+  search_price_total_fr:
+    type: integer
+  search_price_total_to:
+    type: integer
+  search_flag_buy:
+    type: string
+  moving_period:
+    type: string
+  person_in_charge:
+    type: string
+  note:
+    type: string
+  comment:
+    type: string
+  mail_group:
+    type: string
+  youken:
+    type: string
+  oj_q1:
+    type: string
+  oj_q2:
+    type: string
+  oj_q3:
+    type: string
+  oj_q4:
+    type: string
+  oj_q5:
+    type: string
+  oj_q6:
+    type: string
+  oj_q7:
+    type: string
+  oj_q8:
+    type: string
+  oj_q9:
+    type: string
+  oj_q10:
+    type: string
+  newsletter:
+    type: string
+  company_new:
+    type: string
+  1st_name_new:
+    type: string
+  2nd_name_new:
+    type: string
+  email_new:
+    type: string
+  brochure:
+    type: string
+  people:
+    type: string
+  date:
+    type: string
+  time:
+    type: string
+  event_time:
+    type: string
+  free:
+    type: string
+  flag_free:
+    type: integer
+  route:
+    type: string
+  registration_flag:
+    type: integer
+  contact_date:
+    type: string
+    format: date-time
+  ip_address:
+    type: string
+  user_agent:
+    type: string
+  satori_hashcode:
+    type: string
+  satori_message:
+    type: string
+  status:
+    type: string
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time

@@ -1,0 +1,24 @@
+get:
+  summary: 物件詳細を取得
+  tags:
+    - Items
+  parameters:
+    - name: itemId
+      in: path
+      required: true
+      description: 物件コード
+      schema:
+        type: integer
+  responses:
+    '200':
+      description: 物件詳細取得成功
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/Items.yaml'
+    '404':
+      description: データが見つかりません
+      content:
+        application/json:
+          schema:
+            $ref: '../../components/schemas/ErrorResponse.yaml'

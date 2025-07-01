@@ -1,0 +1,143 @@
+type: object
+properties:
+  id:
+    type: integer
+  name:
+    type: string
+  name2:
+    type: string
+  name_kana:
+    type: string
+  name_kana2:
+    type: string
+  new_membership:
+    type: integer
+  email:
+    type: string
+  password:
+    type: string
+  tmp_password:
+    type: string
+  tmp_password_expired:
+    type: string
+    format: date-time
+  master_key:
+    type: string
+  company:
+    type: string
+  industry:
+    type: string
+  department:
+    type: string
+  title:
+    type: string
+  title_text:
+    type: string
+  phone_number:
+    type: string
+  zipcode:
+    type: string
+  prefecture_id:
+    type: integer
+  address:
+    type: string
+  address_detail:
+    type: string
+  building:
+    type: string
+  url:
+    type: string
+  remarks:
+    type: string
+  campaign_applied:
+    type: integer
+  online_status:
+    type: string
+  online_registered_at:
+    type: string
+    format: date-time
+  online_confirmed_at:
+    type: string
+    format: date-time
+  allows_face_to_face:
+    type: integer
+  user_id:
+    type: integer
+  flag_filtered:
+    type: string
+  crm_status:
+    type: string
+  status_updated_at:
+    type: string
+    format: date-time
+  regist_way:
+    type: string
+  inquiry_id:
+    type: integer
+  last_tracked_log_id:
+    type: integer
+  last_tracked:
+    type: string
+    format: date-time
+  flag_permission:
+    type: string
+  has_invalid_email:
+    type: integer
+  stop_mail_groups:
+    type: string
+  num_login:
+    type: integer
+  num_signin_error:
+    type: integer
+  signin_error_time:
+    type: string
+    format: date-time
+  user_hash:
+    type: string
+  status:
+    type: string
+  created:
+    type: string
+    format: date-time
+  modified:
+    type: string
+    format: date-time
+  confirmation_token:
+    type: string
+  confirmed_at:
+    type: string
+    format: date-time
+  confirmation_sent_at:
+    type: string
+    format: date-time
+  remember_created_at:
+    type: string
+    format: date-time
+  last_sign_in_at:
+    type: string
+    format: date-time
+  last_sign_in_ip:
+    type: string
+  current_sign_in_at:
+    type: string
+    format: date-time
+  current_sign_in_ip:
+    type: string
+  sign_in_count:
+    type: integer
+  unconfirmed_email:
+    type: string
+  reset_password_token:
+    type: string
+  reset_password_sent_at:
+    type: string
+    format: date-time
+  failed_attempts:
+    type: integer
+  locked_at:
+    type: string
+    format: date-time
+  satori_hashcode:
+    type: string
+  satori_message:
+    type: string
